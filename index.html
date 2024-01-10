@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image" href="img/favicon.jpg" 
     content="Fotografia del cartel del Foro">
-    <title>Bilbilis</title>
+    <title>Ciuda Romana de Bilbilis</title>
 
     <!--SEO-->
     <meta name="robots" content="index, follow">
@@ -31,11 +31,15 @@
 
   <body>
     <header style="background-color: #E4E7D4;">
-      <h1 style="background-color: #E4E7D4; color: #554333;">Bilbilis</h1>
-      <nav>
-        <a href="#foro">Foro</a>
-        <a href="#termas">Termas</a>  
-        <a href="#teatro">Teatro</a>
+
+      <h1 style="background-color: #E4E7D4; color: #554333; ">Bilbilis</h1>
+      
+      <nav  class="navegacion">
+        <h4>
+          <a href="#foro">Foro</a>
+          <a href="#termas">Termas</a>  
+          <a href="#teatro">Teatro</a>
+        </h4>
       </nav>
     </header>
 
@@ -43,8 +47,14 @@
 
     <main style="background-color: #D6E0D5">
       <br>
-        <h3 style="color: #554333">¿Dónde esta Bilbilis?</h3>
-
+        <h3 style="color: #554333; background-color: #FFFFFF">¿Dónde esta Bilbilis?</h3>
+        <br>
+        <p>
+          Bilbilis está situada sobre la colina de Bámbola, 
+          a orillas del río Jalón, en la localidad de Huérmeda, 
+          a escasos kilómetros de Calatayud.
+        </p>
+        <br>
         <a download="" href="img/mapa bilbilis.jpg" target="_blank">
           <img 
             id="mapa_bilbilis"
@@ -54,14 +64,8 @@
             title="Mapa de Bilbilis"
             alt="Mapa donde se situa la ciudad Romana de Bilbilis"
           >
-        </a>     
-        
+        </a>  
 
-        <p>
-          Está situada sobre la colina de Bámbola, 
-          a orillas del río Jalón, en la localidad de Huérmeda, 
-          a escasos kilómetros de Calatayud.
-        </p>
         <p>
           Bílbilis fue una ciudad prerromana y romana de la península ibérica 
           que se encuentra a escasos kilómetros de Calatayud (Zaragoza) 
@@ -73,6 +77,7 @@
           de Mérida a Zaragoza, 369 millas, entre las plazas de Aquae Bilbilitanorum 
           y Nertobriga (Tarraconense).
         </p>
+
         <nav>
           <a href="https://es.wikipedia.org/wiki/B%C3%ADlbilis"
           target="_blank"
@@ -83,7 +88,7 @@
         <br>
 
         <aside>
-          <h3>Acceso</h3>
+          <h3 style="background-color: #FFFFFF">Acceso</h3>
         </aside>
 
         <a download href="img/llegar bilbilis.JPG" target="_blank">
@@ -119,9 +124,10 @@
           llegaremos arriba de la colina donde se ubicaba el antiguo foro.
         </p>   
           
-        <section style="background-color: #E4E7D4;">
+        <section>
           <header>
             <h2 id="foro" style="background-color:#FFFFFF; color: rgb(221, 132, 90)">Foro</h2>
+            <!--PONER FOTOS DEL AHORA Y DE COMO SERIA-->
 
            
           <a download href="img/FORO.JPG" target="_blank">
@@ -131,17 +137,79 @@
               height="250"
               title="Cartel del Foro"
               alt="Cartel del Foro de bilbilis"
-              src="img/FORO.JPG"
-          />
+              src="img/FORO.JPG"/>
           </a>
           </header>
+            <p>El Foro de Bilbilis se edificó, al igual que el teatro, dentro de un costoso programa
+              de monumentalización de la ciudad. convirtiéndose en el elemento central de su vida cívica.
+              Inagurado hacia el 27 d.C. durante el reinado de Tiberio, sufrió modificaciones en época
+              flavia y antonina, comenzando su declive en el siglo III, cuando es despojado de sus mármoles, 
+              calcinadas sus esculturas y transformados los edificios en almacenes y viviendas. En los siglos 
+              XII-XII sus ruinas fueron reocupadas por un pequeño poblado medieval que aprovechó el criptopórtico
+              para alojar una pequeña iglesia junto a la que se situaba una necrópolis. Posteriormente, templo,
+              basílica, curia y pórticos, fueron expoliados para emplear sus materiales en la construcción de 
+              iglesias, conventos y palacios en Calatayud
+          </p>
         </section>
+
+        <br>
+
+        <section class="Foro">
+          <div class='slider'>
+            <a name="img_1">
+            <img
+                src="img/foro/foro0.JPG"
+              />
+            </a>
+            <a name="img_2">
+            <img
+                src="img/foro/foro1.JPG"
+              />
+            </a>
+            <a name="img_3">
+            <img
+                src="img/foro/foro2.JPG"
+              />
+            </a>
+            <a name="img_4">
+            <img
+                src="img/foro/foro3.JPG"
+              />
+            </a>
+            <a name="img_5">
+            <img
+                src="img/foro/foro4.JPG"
+              />
+            </a>
+            <a name="img_6">
+            <img
+                src="img/foro/foro5.JPG"/>
+            </a>
+
+
+          </div>
+          
+          <div style="background: radial-gradient(ellipse 80% 80% at 50% -20%,#7877c64d,#fff0); position: absolute; top: 0; width: 100%; height: 100%; left:0; z-index: -1">
+
+          </div>
+          <ul class="markers">  
+            <li><a href="#img_1"></a></li>
+            <li><a href="#img_2"></a></li>
+            <li><a href="#img_3"></a></li>
+            <li><a href="#img_4"></a></li>
+            <li><a href="#img_5"></a></li>
+            <li><a href="#img_6"></a></li>
+          </ul>
+
+          
+          </section>
+
 
         <section style="background-color: #E4E7D4;">
           <header > 
-            <h2 id="termas"   style="background-color:#FFFFFF; color: rgb(221, 132, 90)">Termas</h2>
+            <h2 id="termas" style="background-color: #FFFFFF; color: rgb(221, 132, 90)">Termas</h2>
           </header>
-          <details>
+          <details style="background-color: #E4E7D4;">
               <summary>Frigidarium</summary>
               <p>Se empezaba el recorrido de las termas en esta piscina
                 que sería la piscina con agua fría
@@ -150,11 +218,12 @@
         </section>
         
 
-
+      
         <section>
           <header style="background-color: #E4E7D4;">
             <h2 id="teatro" style="background-color:#FFFFFF; color: rgb(221, 132, 90)">Teatro</h2>
           </header>
+          <p>este parrafo es de prueba</p>
         </section>
 
         <a 
