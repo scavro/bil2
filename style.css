@@ -4,28 +4,26 @@
 
 
 .navegacion{
+    margin-inline: 10px;
     font-family: 'Cinzel', serif;
-    font-size: 20px;
+    font-size: 20px;    
 }
 
-
-h1{
-    font-family: 'Cinzel', serif;
-    font-size: 100px;
-    font-weight: normal;
-    padding-top: 10px;
-    text-align: center;
+.navegacion:hover{
+    color:rgb(165, 42, 42);
+    outline: 1px solid rgb(165, 42, 42);
+    /*outline es un contorno, y no pega un salto
+    como border. Utilizar mejor este*/
 }
 
-h2{
+h2{    
     font-family: 'Cinzel', serif;
     font-size: 50px;
     font-weight: normal;
     padding-top: 10px;
     text-align: center;
+    
 }
-
-
 
 h3{
     font-family: 'Cinzel', serif;
@@ -35,10 +33,71 @@ h3{
     text-align: center;
 }
 
-
 body{
     font-family: 'Forum', serif;
     font-size: 25px;
 }
 
+p{  
+    text-align: justify;
+}
 
+.donde{
+    color: #554333; 
+    background-color: #FFFFFF;
+    border:  1px solid #000000;
+    border-radius: 5px;
+    margin: auto;
+    width: fit-content;
+    padding: 5px;
+}
+
+.acceso{
+    color: #554333; 
+    background-color: #FFFFFF;
+    border:  1px solid #000000;
+    border-radius: 5px;
+    margin: auto;
+    width: fit-content;
+    padding: 5px;
+}
+
+.encabezados{
+    background-color:#FFFFFF; 
+    color: #dd845a;
+    border: 3px solid #dd845a;
+    border-radius: 5px;
+    width: 250px;
+    margin: 20px auto;
+    /*id="foro" style="background-color:#FFFFFF; color: #dd845a"*/
+}
+
+#bilbilis{
+    font-family: 'Cinzel', serif;
+    font-size: 100px;
+    font-weight: normal;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #E4E7D4; 
+    color: #554333;
+}
+
+.imagen{
+    border: 10px solid #E4E7D4;
+    display: block; 
+    margin: 0 auto; 
+    width: 100%;
+    max-width: 700px; 
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+.mapa{
+    display: block; 
+    margin: 0 auto; 
+    border: 10px solid #E4E7D4;
+    width: 100%;
+    max-width: 700px; 
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
